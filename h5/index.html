@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <script>
+        document.addEventListener('plusready', function(){
+            //未授权前，没有device方法，所以报错
+            plus.device.dial("18918169347", false);
+        }, false);
+        document.addEventListener('plusDiyReady', function(){
+            //授权后有这个api权限，所以可以拨打电话，false参数无效，因为进行了二次封装，第二个参数只能为true
+            plus.device.dial("18918169347", false);
+        }, false);
+    </script>
+    <title>plus鉴权</title>
+    <style>
+        div {
+            box-sizing: border-box;
+        }
+
+        body {
+            min-width: 1200px;
+            overflow: auto;
+        }
+    </style>
+</head>
+<body >
+    <div>我是一个h5应用</div>
+    <div id="app"></div>
+    <input type="file">
+    <select name="" id="">
+        <option>1</option>
+        <option>2</option>
+    </select>
+</body>
+</html>
