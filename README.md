@@ -5,7 +5,7 @@ uni app打包app，webview或者plus webview api引入h5应用，进行h5应用�
 
 ## **概述**
 
-使用uni app开发app，app中嵌入h5以应，h5应用可以通过html5+暴露的plus api使用原生能力，但api暴露了太多的能力，导致加载外部网站十分不安全，参考各大app嵌入h5应用或者小程序原生能力的调用，应当对不同app授予不同api的权限，通过鉴权，固定h5应用只能使用固定的api
+使用uni app开发app，app中嵌入h5应用，h5应用可以通过html5+暴露的plus api使用原生能力，但api暴露了太多的能力，导致加载外部网站十分不安全，参考各大app嵌入h5应用或者小程序原生能力的调用，应当对不同app授予不同api的权限，通过鉴权，固定h5应用只能使用固定的api
 
 
 
